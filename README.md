@@ -54,19 +54,17 @@
 1. 打开`Quantumult X`
 
 
-2. 找到`[rewrite_remote]`添加下句重写
-
-
-        https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf
-
-
-
-3. 开启**MitM**并**信任**Quantumult X证书，iOS13和iOS12操作略有不同：
+2. 开启**MitM**并**信任**Quantumult X证书，iOS13和iOS12操作略有不同：
     * `设置`--)`MitM`--)开启`MitM`--)`生成密钥及证书`--)右上角点`保存`--)`允许`安装描述文件--)`关闭`--)前往手机的`设置`，不在Quantumult X了--)看到`已下载描述文件`--)`安装`--)输入手机的解锁密码--)`安装`--)`安装`--)前往手机的`设置`--)`通用`--)`关于本机`--)`证书信任设置`--)找到`Quantumult Custom Root Certificate…`点绿它以信任该根证书--)`继续`  
 
+3. 配置文件点击`编辑`找到`[rewrite_remote]`添加下句重写
 
-4. 添加**订阅分流**链接：前往`quantumult X`：`分流`--)`引用`--)右上角`加号`--)`链接`处添加网址`https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list `右上角`确定`
-    * `左滑`--)`编辑`--)打开策略偏好`选择TikTok`
+        * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
+
+4. 找到`[filter_remote]`添加下句重写
+
+        * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
+
 
 
 5. 配置文件点击`编辑`找到`[rewrite_local]`添加以下代码
