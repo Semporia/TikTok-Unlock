@@ -59,24 +59,22 @@
 
 3. 配置文件点击`编辑`找到`[rewrite_remote]`添加下句重写
 
-        * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
+        https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
 
 4. 找到`[filter_remote]`添加下句重写
 
-        * https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
+        https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
 
 
-
-5. 配置文件点击`编辑`找到`[rewrite_local]`添加以下代码
+5. 找到`[rewrite_local]`添加以下代码
 
         (?<=(carrier|sys)_region=)CN url 307 JP
            
         (?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.0.0
 
 
-7. 配置文件点击`编辑`找到`hostname`添加
+6. 找到`hostname`添加
 
-           
         hostname = *.musical.ly, *.tiktokv.com,*.tiktokcdn.com, api*.amemv.com, aweme*.snssdk.com 
    
-
+7. 开启Quantumult X：前往Quantumult X的主页--）找到`TikTok`策略--）长按添加`节点`--)TikTok愉快
