@@ -1,4 +1,4 @@
-# 🌟 解锁TikTok+换区+发视频+无水印下载+直播(iPhone)
+# 解锁TikTok+换区+发视频+无水印下载+直播(iPhone)
 
 ### 目录
 
@@ -64,7 +64,7 @@
     * `设置`--)`MitM`--)开启`MitM`--)`生成密钥及证书`--)右上角点`保存`--)`允许`安装描述文件--)`关闭`--)前往手机的`设置`，不在Quantumult X了--)看到`已下载描述文件`--)`安装`--)输入手机的解锁密码--)`安装`--)`安装`--)前往手机的`设置`--)`通用`--)`关于本机`--)`证书信任设置`--)找到`Quantumult Custom Root Certificate…`点绿它以信任该根证书--)`继续`  
 
 
-4. 添加**订阅分流**链接：前往`quantumult X`：`分流`--)`引用`--)右上角`加号`--)`分流`--)`链接`处添加网址`https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list `右上角`确定`
+4. 添加**订阅分流**链接：前往`quantumult X`：`分流`--)`引用`--)右上角`加号`--)`链接`处添加网址`https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list `右上角`确定`
 
 
 5. 找到`[rewrite_local]`添加下句代码
