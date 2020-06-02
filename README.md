@@ -27,14 +27,15 @@
 ***
 
 * - [x] 美区Appstore下载TikTok
-
-        * 港区Apple ID、密码 自备
            
         * 美区Apple ID、密码 自备
             
 
 * - [x] 自备[Quantumult x]
-    * 可在美区App Store获取
+           
+        * 可在美区App Store获取
+    
+
 * - [x] 自备代理，ss/ssr/vmess等
 
 ### 关于换区
@@ -50,13 +51,13 @@
 
 
 
-1. 打开`Quantumult X`配置文件  
+1. 打开`Quantumult X`
 
 
 2. 找到`[rewrite_remote]`添加下句重写
 
 
-        https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
+        https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf
 
 
 
@@ -65,16 +66,17 @@
 
 
 4. 添加**订阅分流**链接：前往`quantumult X`：`分流`--)`引用`--)右上角`加号`--)`链接`处添加网址`https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list `右上角`确定`
+    * `左滑`--)`编辑`--)打开策略偏好`选择TikTok`
 
 
-5. 找到`[rewrite_local]`添加下句代码
+5. 配置文件点击`编辑`找到`[rewrite_local]`添加以下代码
 
         (?<=(carrier|sys)_region=)CN url 307 JP
            
         (?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.0.0
 
 
-7. 找到`hostname`添加
+7. 配置文件点击`编辑`找到`hostname`添加
 
            
         hostname = *.musical.ly, *.tiktokv.com,*.tiktokcdn.com, api*.amemv.com, aweme*.snssdk.com 
