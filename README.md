@@ -19,7 +19,7 @@
     * - [x] 点赞
     * - [x] 评论
     * - [x] 部分账号能看TikTok直播
-    * TikTok版本：v16.4.0
+    * TikTok版本：v16.6.0
     * iOS系统版本：14.0，其他版本请自行测试是否可行
 
 ### 准备工作
@@ -68,13 +68,16 @@
 
 5. 找到`[rewrite_local]`添加以下代码
 
-        (?<=(carrier|sys)_region=)CN url 307 JP
-           
-        (?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.0.0
+        (?<=_region=)CN(?=&) url 307 JP
+
+        (?<=&app_version=)16..(?=.?.?&) url 307 1
+
+        (?<=\?version_code=)16..(?=.?.?&) url 307 1
+
 
 
 6. 找到`hostname`添加
 
-        hostname = *.musical.ly, *.tiktokv.com,*.tiktokcdn.com, api*.amemv.com, aweme*.snssdk.com 
+        hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
    
 7. 开启Quantumult X：前往Quantumult X的主页--）找到`TikTok`策略--）长按添加`节点`--)TikTok愉快
