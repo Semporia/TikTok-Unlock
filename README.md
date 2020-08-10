@@ -19,7 +19,7 @@
     * - [x] 点赞
     * - [x] 评论
     * - [x] 部分账号能看TikTok直播
-    * TikTok版本：v16.6.0
+    * TikTok版本：v17.2.0
     * iOS系统版本：14.0，其他版本请自行测试是否可行
 
 ### 准备工作
@@ -69,10 +69,9 @@
 5. 找到`[rewrite_local]`添加以下代码
 
         (?<=_region=)CN(?=&) url 307 JP
-
-        (?<=&app_version=)16..(?=.?.?&) url 307 1
-
-        (?<=\?version_code=)16..(?=.?.?&) url 307 1
+        (?<=&app_version=)17..(?=.?.?&) url 307 1
+        (?<=\?version_code=)17..(?=.?.?&) url 307 1
+        (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
 
 
 
