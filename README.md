@@ -11,29 +11,29 @@
 
 ***
 * 美区TikTok
-    * 下载方式：在美区App Store搜索 tiktok 并下载
+    * 下载方式：在 日区/港区/台区 App Store搜索 tiktok 并下载
     * 支持功能：
-    * - [ ] 换区不太灵
-    * - [x] 看视频
-    * - [ ] 能否发视频，不确定（我发视频，提示视频在审核中）
-    * - [x] 点赞
-    * - [x] 评论
-    * - [x] 部分账号能看TikTok直播
-    * TikTok版本：v17.2.0
-    * iOS系统版本：14.2，其他版本请自行测试是否可行
+    * - [ ] 换区
+    * - [ ] 看视频
+    * - [ ] 发布视频
+    * - [ ] 点赞
+    * - [ ] 评论
+    * - [ ] TikTok直播
+    * TikTok版本：v18.2.1（1821000）
+    * iOS系统版本：14.4 beta，其他版本请自行测试是否可行
 
 ### 准备工作
 
 ***
 
-* - [x] 美区Appstore下载TikTok
+* - [x] 日区/港区/台区 Appstore 下载 TikTok
            
-        * 美区Apple ID、密码 自备
+        * 日区/港区/台区 Apple ID、密码 自备
             
 
 * - [x] 自备[Quantumult x]
            
-        * 可在美区App Store获取
+        * 可在美区 App Store 获取
     
 
 * - [x] 自备代理，ss/ssr/vmess等
@@ -59,7 +59,7 @@
 
 3. 配置文件点击`编辑`找到`[rewrite_remote]`添加下句重写
 
-        https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
+        https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 
 4. 找到`[filter_remote]`添加下句重写
 
@@ -68,11 +68,12 @@
 
 5. 找到`[rewrite_local]`添加以下代码
 
-        ^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? url reject
+       此处无需添加
+        # ^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? url reject
 
-        (?<=_region=)CN(?=&) url 307 JP
-        (?<=&app_version=)1[6-9]..(?=.?.?&) url 307 17..
-        (?<=\?version_code=)1[6-9]..(?=.?.?&) url 307 17..
+        # (?<=_region=)CN(?=&) url 307 JP
+        # (?<=&app_version=)1[6-9]..(?=.?.?&) url 307 17..
+        # (?<=\?version_code=)1[6-9]..(?=.?.?&) url 307 17..
 
 
 
