@@ -5,7 +5,7 @@
 * [TikTok](#TikTok)
 * [准备工作](#准备工作)
 * [Quantumult X](#Quantumult X)
-* [Loon](https://github.com/Semporia/TikTok-Unlock/Loon)
+* [Loon](https://github.com/Semporia/TikTok-Unlock/tree/master/Loon)
 * [𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭](#𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭)
 
 ***
