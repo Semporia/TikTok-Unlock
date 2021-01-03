@@ -2,54 +2,54 @@
 
 > 目录
 
+* [TikTok](#TikTok)
+* [准备工作](#准备工作)
 * [Quantumult X](#Quantumult X)
-* [Surge](#Surge)
-* [Loon](#Loon)
-* [𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭](#𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭 小火箭)
-
-### 支持的TikTok功能
+* [𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭](#𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭)
 
 ***
-* TikTok
-    * 下载方式：在 日区/港区/台区 App Store搜索 tiktok 并下载
-    * 支持功能：
+### TikTok  
+
+* TikTok版本：v18.2.1（1821000）
+* 下载方式：在 日区/港区/台区 App Store搜索 tiktok 并下载
+	* 支持功能：
+
      - [x] 换区
      - [x] 看视频
      - [x] 发布视频
      - [x] 点赞
      - [x] 评论
      - [x] TikTok直播
-    * TikTok版本：v18.2.1（1821000）
-    * iOS系统版本：14.4 beta，其他版本请自行测试是否可行
+
+* iOS系统版本：14.4 beta，其他版本请自行测试是否可行
 
 ### 准备工作
 
-***
 
- - 日区/港区/台区 Appstore 下载 TikTok
+- 日区/港区/台区 Appstore 下载 TikTok
 
     * 日区/港区/台区 Apple ID、密码 自备
 
 
- - 自备 Quantumult X｜Loon｜Surge｜𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭
+- 自备 Quantumult X｜Loon｜Surge｜𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭
  
      * 可在美区 App Store 获取
 
-- 自备代理，ss/ssr/vmess等
-
-
-## Quantumult X
-
-### 关于换区
+- 自备代理，ss/ssr/vmess等  
 
 ***
+### Quantumult X
+
+**关于换区**
+
+
 
 * 解锁并换区：将`CN`改为想看的国家/地区的2位`大写`英文简写，
 
     * 在`HTTP复写`中，将`CN`的替换值改为`SG`、`MO`、`TW`等即可换区
 
 
-### 操作步骤
+**操作步骤**
 
 1. 打开`Quantumult X`
 
@@ -86,10 +86,10 @@
 
 ***
 
-## 𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭 小火箭
+### 𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭
 
-### 操作步骤
-### 
+**操作步骤**
+
 1、生成证书-安装证书-信任证书  
 2、配置-编辑纯文本  
 3、配置文件点击`编辑`找到`[URL Rewrite]`添加下句重写  
