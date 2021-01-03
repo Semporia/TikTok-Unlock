@@ -1,0 +1,8 @@
+[URL Rewrite]
+(?<=_region=)CN(?=&) UK 307
+(?<=&app_version=)1[6-9]..(?=.?.?&) 100. 307
+(?<=\?version_code=)1[6-9]..(?=.?.?&) 100. 307
+^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? - reject
+
+[MITM]
+hostname = *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
