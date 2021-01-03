@@ -59,6 +59,7 @@
 
 3. 配置文件点击`编辑`找到`[rewrite_remote]`添加下句重写
 
+        https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=Rewrite, update-interval=86400, opt-parser=false, enabled=true
         https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 
 4. 找到`[filter_remote]`添加下句分流规则
