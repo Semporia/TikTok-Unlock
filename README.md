@@ -38,7 +38,7 @@
 - 自备代理，ss/ssr/vmess等  
 
 ---
-### <a id="Quantumult"> Quantumult X </a>
+### <a id="Quantumult X"> Quantumult X </a>
 
 **关于换区**
 
@@ -59,7 +59,6 @@
 3. 配置文件点击`编辑`找到`[rewrite_remote]`添加下句重写
 
 ```
-https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=Rewrite, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
@@ -72,6 +71,7 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 5. 找到`[rewrite_local]`添加以下代码
 
 ```
+最新版本 TikTok.conf 可不添加这句！
 (?<=_region=)CN(?=&) url 307 JP
 ```
 
