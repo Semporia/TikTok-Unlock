@@ -1,0 +1,8 @@
+
+[URL Rewrite]
+#tiktok解锁直播区域限制
+(?<=_region=)CN(?=&) KR 307
+(?<=&mcc_mnc=)46 44 307
+^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+[MITM]
+hostname = %APPEND% *.byteoversea.com,*.tiktokv.com,*.tik-tokapi.com
