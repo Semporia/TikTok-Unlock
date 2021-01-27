@@ -11,7 +11,7 @@
 ### <a id="TikTok"> TikTok </a>
 
 * iOS系统版本：14.4 （18D52）
-* TikTok版本：v18.4.0（1840150）
+* TikTok版本：v18.4.5（1845090）
 * 下载方式：在 日区/港区/台区 App Store搜索 tiktok 并下载
 	* 支持功能：
 
