@@ -26,14 +26,14 @@
 ### <a id="准备工作"> 准备工作 </a>
 
 
-- 日区/港区/台区 Appstore 下载 TikTok
+- 亚洲区 Appstore 下载 TikTok
 
-    * 日区/港区/台区 Apple ID、密码 自备
+    * 日区/台区/韩区等 Apple ID、密码 自备
 
 
 - 自备 Quantumult X｜Loon｜Surge｜𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭
  
-     * 可在美区 App Store 获取
+     * 可在美区/日区等 App Store 获取
 
 - 自备代理，ss/ssr/vmess等  
 
