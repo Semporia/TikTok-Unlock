@@ -5,7 +5,7 @@
 * [TikTok](#TikTok)
 * [准备工作](#准备工作)
 * [Quantumult X](#Quantumult)
-* [𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭](#𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭)
+* [Shadowrocket](#Shadowrocket)
 
 ---
 ### <a id="TikTok"> TikTok </a>
@@ -31,7 +31,7 @@
     * 日区/台区/韩区等 Apple ID、密码 自备
 
 
-- 自备 Quantumult X｜Loon｜Surge｜𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭
+- 自备 Quantumult X｜Loon｜Surge｜Shadowrocket
  
      * 可在美区/日区等 App Store 获取
 
@@ -80,7 +80,7 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 
 ---
 
-### <a id="𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭"> 𝐒𝐡𝐚𝐝𝐨𝐰𝐫𝐨𝐜𝐤𝐞𝐭 </a>
+### <a id="Shadowrocket"> Shadowrocket </a>
 
 **操作步骤**
 
