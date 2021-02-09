@@ -73,6 +73,7 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.co
 (?<=&mcc_mnc=)4 url 307 2
 ^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
 ```
+
 3.1. 在`[mitm]`中添加
 
 ```
