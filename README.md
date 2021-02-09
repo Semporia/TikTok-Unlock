@@ -64,7 +64,8 @@
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
-**方法二：**
+
+**方法二：（推荐使用，换区方便）**
 
 3. 在`[rewrite_local]`中添加以下重写
 
@@ -80,7 +81,7 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.co
 hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
 ```
 
-4. 找到`[filter_remote]`添加下句分流规则
+4. 找到`[filter_remote]`添加下句分流(无论使用方法一或是方法二，此分流都需要添加！)
 
 ```
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
