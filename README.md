@@ -56,11 +56,27 @@
 2. 开启**MitM**并**信任**Quantumult X证书，iOS 14、iOS 13和iOS 12操作略有不同：
     * `设置`--)`MitM`--)开启`MitM`--)`生成密钥及证书`--)右上角点`保存`--)`允许`安装描述文件--)`关闭`--)前往手机的`设置`，不在Quantumult X了--)看到`已下载描述文件`--)`安装`--)输入手机的解锁密码--)`安装`--)`安装`--)前往手机的`设置`--)`通用`--)`关于本机`--)`证书信任设置`--)找到`Quantumult X Custom Root Certificate…`点绿它以信任该根证书--)`继续`  
 
+**方法一：**
+
 3. 配置文件点击`编辑`找到`[rewrite_remote]`添加下面的两条重写
 
 ```
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+```
+**方法二：**
+
+3. 在`[rewrite_local]`中添加以下重写
+
+```
+(?<=_region=)CN(?=&) url 307 JP
+(?<=&mcc_mnc=)4 url 307 2
+^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
+```
+3.1 在`[mitm]`中添加
+
+```
+hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
 ```
 
 4. 找到`[filter_remote]`添加下句分流规则
