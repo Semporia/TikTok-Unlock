@@ -51,14 +51,14 @@
 
 **操作步骤**
 
-1. 打开`Quantumult X`  
+1、打开`Quantumult X`  
 
-2. 开启**MitM**并**信任**Quantumult X证书，iOS 14、iOS 13和iOS 12操作略有不同：
+2、开启**MitM**并**信任**Quantumult X证书，iOS 14、iOS 13和iOS 12操作略有不同：
     * `设置`--)`MitM`--)开启`MitM`--)`生成密钥及证书`--)右上角点`保存`--)`允许`安装描述文件--)`关闭`--)前往手机的`设置`，不在Quantumult X了--)看到`已下载描述文件`--)`安装`--)输入手机的解锁密码--)`安装`--)`安装`--)前往手机的`设置`--)`通用`--)`关于本机`--)`证书信任设置`--)找到`Quantumult X Custom Root Certificate…`点绿它以信任该根证书--)`继续`  
 
 **方法一：**
 
-3. 配置文件点击`编辑`找到`[rewrite_remote]`添加下面的两条重写
+3、配置文件点击`编辑`找到`[rewrite_remote]`添加下面的两条重写
 
 ```
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
@@ -67,7 +67,7 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.co
 
 **方法二：（推荐使用，换区方便）**
 
-3. 在`[rewrite_local]`中添加以下重写
+3、在`[rewrite_local]`中添加以下重写
 
 ```
 (?<=_region=)CN(?=&) url 307 JP
@@ -75,26 +75,26 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.co
 ^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
 ```
 
-3.1. 在`[mitm]`中添加
+3.1、在`[mitm]`中添加
 
 ```
 hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
 ```
 
-4. 找到`[filter_remote]`添加下句分流(无论使用方法一或是方法二，此分流都需要添加！)
+4、找到`[filter_remote]`添加下句分流(无论使用方法一或是方法二，此分流都需要添加！)
 
 ```
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.list, tag=TikTok, force-policy=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
-5. 换区：在[rewrite_local]中添加下句重写，并将`CN`改为想看的国家/地区的2位`大写`英文简写 JP（日本）｜KR（韩国）｜UK（英国）｜US（美国）｜TW（台湾）
+5、换区：在[rewrite_local]中添加下句重写，并将`CN`改为想看的国家/地区的2位`大写`英文简写 JP（日本）｜KR（韩国）｜UK（英国）｜US（美国）｜TW（台湾）
 
 
 ```
 (?<=_region=)CN(?=&) url 307 CN
 ```
 
-6. 开启Quantumult X：前往Quantumult X的主页--）找到`TikTok`策略--）长按添加`节点`--)TikTok愉快
+6、开启Quantumult X：前往Quantumult X的主页--）找到`TikTok`策略--）长按添加`节点`--)TikTok愉快
 
 ---
 
@@ -102,9 +102,9 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 
 **操作步骤**
 
-1. 生成证书-安装证书-信任证书  
-2. 配置-编辑纯文本  
-3. 配置文件点击`编辑`找到`[URL Rewrite]`添加下句重写
+1、生成证书-安装证书-信任证书  
+2、配置-编辑纯文本  
+3、配置文件点击`编辑`找到`[URL Rewrite]`添加下句重写
 
 ```
 (?<=_region=)CN(?=&) US 307
@@ -116,7 +116,7 @@ ctier=[A-Z] ctier=A 302
 ^https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier) _ REJECT
 ```
 
-4. 找到 `[MITM]`添加
+4、找到 `[MITM]`添加
  
 ```
 hostname = *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, *.googlevideo.com
