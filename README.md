@@ -96,6 +96,14 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 
 6、开启Quantumult X：前往Quantumult X的主页--）找到`TikTok`策略--）长按添加`节点`--)TikTok愉快
 
+**特别说明**
+
+1、为什么要先卸载tiktok，tiktok会在第一次使用时触发限制，并导致之后无法通过MiMt解密
+2、所以先配置好规则之后，然后在下载tiktok，减少重定向的请求次数，降低风险，延长规则的寿命
+3、为什么配置好之后还是无法使用，请检查软件的证书有没有安装，信任，
+4、或者是Https解密（MiMt）与重写（Rewrite）有没有开启
+5、或者是软件是不是盗版，比如用共享id下载的Quantumult-X，有设备限制，是无法使用重写脚本功能的
+
 ---
 
 ### <a id="Shadowrocket"> Shadowrocket </a>
