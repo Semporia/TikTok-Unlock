@@ -4,7 +4,7 @@
 
 * [TikTok](#TikTok)
 * [准备工作](#准备工作)
-* [Quantumult X](#Quantumult)
+* [Quantumult X](#Quantumult X)
 
 ---
 ### <a id="TikTok"> TikTok </a>
