@@ -5,7 +5,6 @@
 * [TikTok](#TikTok)
 * [准备工作](#准备工作)
 * [Quantumult X](#Quantumult)
-* [Shadowrocket](#Shadowrocket)
 
 ---
 ### <a id="TikTok"> TikTok </a>
@@ -105,30 +104,3 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 5、或者是软件是不是盗版，比如用共享ID下载的Quantumult X，有设备限制，是无法使用重写脚本功能的  
 
 ---
-
-### <a id="Shadowrocket"> Shadowrocket </a>
-
-**操作步骤**
-
-1、生成证书-安装证书-信任证书  
-2、配置-编辑纯文本  
-3、配置文件点击`编辑`找到`[URL Rewrite]`添加下句重写
-
-```
-(?<=_region=)CN(?=&) US 307
-(?<=&mcc_mnc=)4 2 307
-^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
-(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
-
-ctier=[A-Z] ctier=A 302
-^https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier) _ REJECT
-```
-
-4、找到 `[MITM]`添加
- 
-```
-hostname = *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com, *.googlevideo.com
-```
-
-提示：
-有需要换区的，将[URL Rewrite]中的US换成JP/UK/TW/KR即可。
