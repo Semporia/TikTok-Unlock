@@ -73,13 +73,14 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.co
 ```
 (?<=_region=)CN(?=&) url 307 JP
 (?<=&mcc_mnc=)4 url 307 2
-^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
+(?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) url 307 17
 ```
 
 3.1、在`[mitm]`中添加
 
 ```
-hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
+hostname = *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
 ```
 
 4、找到`[filter_remote]`添加下句分流(无论使用方法一或是方法二，此分流都需要添加！)
