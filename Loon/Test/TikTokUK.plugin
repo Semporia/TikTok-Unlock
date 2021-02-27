@@ -1,9 +1,0 @@
-[URL Rewrite]
-#tiktok解锁直播区域限制
-(?<=_region=)CN(?=&) UK 307
-(?<=&mcc_mnc=)4 2 307
-^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
-(^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
-
-[MITM]
-hostname = *.tiktokv.com,*.byteoversea.com,*.tik-tokapi.com
