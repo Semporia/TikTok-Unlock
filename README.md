@@ -105,7 +105,7 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 4、或者是Https解密（MiMt）与重写（Rewrite）有没有开启  
 5、或者是软件是不是盗版，比如用共享ID下载的Quantumult X，有设备限制，是无法使用重写脚本功能的  
 
-**去水印下载捷径**
+### <a id="去水印下载捷径"> TikTok 去水印下载捷径 </a>
 
 [下载地址](https://www.icloud.com/shortcuts/eb1ffe374b684c6283115dc59b93c879)
 
