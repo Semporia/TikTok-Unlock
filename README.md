@@ -5,6 +5,7 @@
 * [TikTok](#TikTok)
 * [准备工作](#准备工作)
 * [Quantumult X](#Quantumult%20X)
+* TikTok 去水印下载捷径(#去水印下载捷径)
 
 ---
 ### <a id="TikTok"> TikTok </a>
