@@ -5,6 +5,8 @@
 * [TikTok](#TikTok)
 * [准备工作](#准备工作)
 * [Quantumult X](#Quantumult%20X)
+* [Loon](#Loon)
+* [Surge](#Surge)
 * [TikTok 去水印下载捷径](#去水印下载捷径)
 
 ---
@@ -110,6 +112,43 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 ```
 
 6、开启Quantumult X：前往Quantumult X的主页--）找到`TikTok`策略--）长按添加`节点`--)TikTok愉快
+
+
+### <a id="Loon"> Loon </a>
+
+**关于换区**
+
+
+
+* 解锁并换区：将`CN`改为想看的国家/地区的2位`大写`英文简写，
+
+    * 在`HTTP复写`中，将`CN`的替换值改为`SG`、`MO`、`TW`等即可换区
+
+
+**操作步骤**
+
+1、打开`Loon`  
+
+2、点击`插件`在右上角找到`➕`进去在URL添加想看的对应国家链接,tag处自定义；PROXY 选择TikTok分流策略即可。
+
+```
+
+日本
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokJP.plugin
+
+台湾
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokTW.plugin
+
+韩国
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokKR.plugin
+
+美国
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.plugin
+
+
+```
+
+
 
 **特别说明**
 
