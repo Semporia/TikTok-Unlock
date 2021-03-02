@@ -117,14 +117,6 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 
 ### <a id="Loon"> Loon </a>
 
-**关于换区**
-
-
-
-* 解锁并换区：将`CN`改为想看的国家/地区的2位`大写`英文简写，
-
-    * 在`HTTP复写`中，将`CN`的替换值改为`SG`、`MO`、`TW`等即可换区
-
 
 **操作步骤**
 
@@ -153,6 +145,32 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.pl
 ```
 
 https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list, tag=TikTok, policy=TikTok, update-interval=86400, enabled=true
+
+```
+
+### <a id="Surge"> Surge </a>
+
+
+**操作步骤**
+
+1、打开`Surge`  
+
+2、点击`模块`进去添加想看国家的对应模块。
+
+```
+
+日本
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-JP.sgmodule
+
+台湾
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-TW.sgmodule
+
+韩国
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-KR.sgmodule
+
+美国
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.sgmodule
+
 
 ```
 
