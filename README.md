@@ -147,9 +147,11 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.pl
 
 
 ```
+3、在`[Remote Rule]`下面添加TikTok分流规则，示例如下：
+
 ```
 
-https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list
+https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list, tag=TikTok, policy=TikTok, update-interval=86400, enabled=true
 
 ```
 
