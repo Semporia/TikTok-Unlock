@@ -63,7 +63,7 @@
 
 ```
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
-https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/TikTok.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-JP.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
 **方法二：（推荐使用，换区方便）**
