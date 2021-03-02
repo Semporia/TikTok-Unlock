@@ -147,7 +147,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.pl
 https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list, tag=TikTok, policy=TikTok, update-interval=86400, enabled=true
 
 ```
-
+---
 ### <a id="Surge"> Surge </a>
 
 
