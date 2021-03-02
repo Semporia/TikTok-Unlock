@@ -147,7 +147,11 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.pl
 
 
 ```
+```
 
+https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list
+
+```
 
 
 **特别说明**
