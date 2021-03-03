@@ -88,7 +88,7 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.c
 
 ```
 
-**方法二：（推荐使用，换区方便）**
+**方法二：**
 
 3、在`[rewrite_local]`中添加以下重写
 
