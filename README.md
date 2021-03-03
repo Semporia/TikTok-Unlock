@@ -61,10 +61,9 @@
 
 **方法一：**
 
-3、配置文件点击`编辑`找到`[rewrite_remote]`添加下面的两条重写
+3、配置文件点击`编辑`找到`[rewrite_remote]`添加下面对应国家的复写
 
 ```
-https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
 
 日本
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-JP.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
@@ -78,6 +77,14 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/T
 美国
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 
+
+```
+
+**神机复写**
+
+```
+
+https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
 
 ```
 
