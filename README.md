@@ -13,8 +13,8 @@
 ### <a id="TikTok"> TikTok </a>
 
 * iOS系统版本：14.5 （18E5164h）
-* TikTok版本：v18.6.5（1865020）
-* TikTok TF版本：v18.7.0（1870030）
+* TikTok版本：v18.7.0（1870140）
+* TikTok TF版本：v18.7.5（1870501）
 * 下载方式：在 美区/日区/港区/台区 App Store搜索 TikTok 并下载
 	* 支持功能：
 
