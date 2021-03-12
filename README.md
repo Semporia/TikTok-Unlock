@@ -15,7 +15,7 @@
 * iOS系统版本：14.5 （18E5164h）
 * TikTok版本：v18.6.5（1865020）
 * TikTok TF版本：v18.7.0（1870030）
-* 下载方式：在 日区/港区/台区 App Store搜索 tiktok 并下载
+* 下载方式：在 美区/日区/港区/台区 App Store搜索 TikTok 并下载
 	* 支持功能：
 
      - [x] 换区
@@ -31,7 +31,7 @@
 
 - 亚洲区 Appstore 下载 TikTok
 
-    * 日区/台区/韩区等 Apple ID、密码 自备
+    * 美区/日区/台区/韩区等 Apple ID、密码 自备
 
 
 - 自备 Quantumult X｜Loon｜Surge｜Shadowrocket
