@@ -15,7 +15,7 @@
 * iOS系统版本：14.5 Beta4
 * TikTok版本：v18.7.5
 * TikTok TF版本：v18.8.0
-* 下载方式：在 美区/日区/港区/台区 App Store搜索 TikTok 并下载
+* 下载方式：在 美区/日区/台区 App Store搜索 TikTok 并下载 （港区已停止运营）
 	* 支持功能：
 
      - [x] 换区
