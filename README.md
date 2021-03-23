@@ -7,6 +7,8 @@
 * [Quantumult X](#Quantumult%20X)
 * [Loon](#Loon)
 * [Surge](#Surge)
+* [Shadowrocket](#Shadowrocket)
+
 * [TikTok 去水印下载捷径](#去水印下载捷径)
 
 ---
