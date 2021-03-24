@@ -12,6 +12,7 @@
 * [TikTok 去水印下载捷径](#去水印下载捷径)
 
 ---
+
 ### <a id="TikTok"> TikTok </a>
 
 * iOS系统版本：14.5 Beta4
@@ -194,6 +195,14 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.s
 
 ```
 
+3、添加以下`分流`
+
+```
+
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list
+
+```
+
 ---
 
 ### <a id="Shadowrocket"> Shadowrocket </a>
@@ -221,7 +230,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiK
 
 ```
 
-3、添加以下分流
+3、添加以下`分流`
 
 ```
 
