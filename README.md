@@ -221,8 +221,18 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiK
 
 ```
 
+3、添加以下分流
+
+```
+
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TikTok.list
+
+```
+
+---
+
 ### <a id="去水印下载捷径"> TikTok 去水印下载捷径 </a>
 
 [下载地址](https://www.icloud.com/shortcuts/eb1ffe374b684c6283115dc59b93c879)
 
----
+
