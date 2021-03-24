@@ -156,7 +156,9 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.pl
 https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list, tag=TikTok, policy=TikTok, update-interval=86400, enabled=true
 
 ```
+
 ---
+
 ### <a id="Surge"> Surge </a>
 
 
@@ -183,6 +185,32 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.s
 
 ```
 
+---
+
+### <a id="Shadowrocket"> Shadowrocket </a>
+
+
+**操作步骤**
+
+1、打开`Shadowrocket`  
+
+2、点击`配置`进去添加想看国家的对应模块。
+
+```
+
+日本
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-JP.conf
+
+台湾
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-TW.conf
+
+韩国
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-KR.conf
+
+美国
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-US.conf
+
+```
 
 **特别说明**
 
