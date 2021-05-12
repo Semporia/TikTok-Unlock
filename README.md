@@ -84,13 +84,6 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/T
 
 ```
 
-**神机复写**
-
-```
-
-https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Rewrite/Rewrite.conf, tag=DivineEngine Rewrite, update-interval=86400, opt-parser=false, enabled=true
-
-```
 
 **方法二：**
 
