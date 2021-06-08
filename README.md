@@ -200,9 +200,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.s
 3、添加以下`分流`
 
 ```
-
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list
-
 ```
 
 ---
@@ -239,9 +237,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiK
 3、添加以下`分流`
 
 ```
-
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TikTok.list
-
 ```
 
 ---
