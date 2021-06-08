@@ -67,21 +67,25 @@
 
 3、配置文件点击`编辑`找到`[rewrite_remote]`添加下面对应国家的复写
 
+
+**日本**
+```
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-JP.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
 ```
 
-日本
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-JP.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
-
-台湾
+**台湾**
+```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-TW.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+```
 
-韩国
+**韩国**
+```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-KR.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
+```
 
-美国
+**美国**
+```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult%20X/TikTok-US.conf, tag=TikTok, update-interval=86400, opt-parser=false, enabled=true
-
-
 ```
 
 
@@ -136,28 +140,30 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 
 2、点击`插件`在右上角找到`➕`进去在URL添加想看的对应国家链接,tag处自定义；PROXY 选择TikTok分流策略即可。
 
+**日本**
 ```
-
-日本
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokJP.plugin
-
-台湾
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokTW.plugin
-
-韩国
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokKR.plugin
-
-美国
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.plugin
-
-
 ```
+
+**台湾**
+```
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokTW.plugin
+```
+
+**韩国**
+```
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokKR.plugin
+```
+
+**美国**
+```
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTokUS.plugin
+```
+
 3、在`[Remote Rule]`下面添加TikTok分流规则，示例如下：
 
 ```
-
 https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list, tag=TikTok, policy=TikTok, update-interval=86400, enabled=true
-
 ```
 
 ---
@@ -171,21 +177,24 @@ https://raw.githubusercontent.com/Semporia/Loon/master/Rule/TikTok.list, tag=Tik
 
 2、点击`模块`进去添加想看国家的对应模块。
 
+**日本**
+```
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-JP.sgmodule
 ```
 
-日本
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-JP.sgmodule
-
-台湾
+**台湾**
+```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-TW.sgmodule
+```
 
-韩国
+**韩国**
+```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-KR.sgmodule
+```
 
-美国
+**美国**
+```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.sgmodule
-
-
 ```
 
 3、添加以下`分流`
@@ -207,20 +216,24 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.lis
 
 2、点击`配置`进去添加想看国家的对应模块。
 
+**日本**
+```
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-JP.conf
 ```
 
-日本
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-JP.conf
-
-台湾
+**台湾**
+```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-TW.conf
+```
 
-韩国
+**韩国**
+```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-KR.conf
+```
 
-美国
+**美国**
+```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-US.conf
-
 ```
 
 3、添加以下`分流`
