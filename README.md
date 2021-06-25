@@ -249,7 +249,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 [下载地址](https://www.icloud.com/shortcuts/b27ab05345e64b4a9c1b499648b4ea38)
 
 
-### <a id="去水印下载捷径"> TikTok 去水印下载捷径 </a>
+### <a id="抖音"> 抖音無法觀看 </a>
 
 在hostname中加上以下兩條
 、、、
