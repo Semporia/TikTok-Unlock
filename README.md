@@ -252,6 +252,6 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 ### <a id="抖音"> 抖音無法觀看 </a>
 
 在hostname中加上以下兩條
-、、、
+```
 -*snssdk.com, -*amemv.com
-、、、
+```
