@@ -1,17 +1,17 @@
 # NAME: TikTok
 
-DOMAIN,p16-tiktokcdn-com.akamaized.net
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,sgpstatp.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-KEYWORD,-tiktokcdn-com
-USER-AGENT,TikTok*
+DOMAIN,p16-tiktokcdn-com.akamaized.net,PROXY
+DOMAIN-SUFFIX,byteoversea.com,PROXY
+DOMAIN-SUFFIX,ibytedtos.com,PROXY
+DOMAIN-SUFFIX,ibyteimg.com,PROXY
+DOMAIN-SUFFIX,ipstatp.com,PROXY
+DOMAIN-SUFFIX,muscdn.com,PROXY
+DOMAIN-SUFFIX,musical.ly,PROXY
+DOMAIN-SUFFIX,sgpstatp.com,PROXY
+DOMAIN-SUFFIX,snssdk.com,PROXY
+DOMAIN-SUFFIX,tik-tokapi.com,PROXY
+DOMAIN-SUFFIX,tiktok.com,PROXY
+DOMAIN-SUFFIX,tiktokcdn.com,PROXY
+DOMAIN-SUFFIX,tiktokv.com,PROXY
+DOMAIN-KEYWORD,-tiktokcdn-com,PROXY
+USER-AGENT,TikTok*,PROXY

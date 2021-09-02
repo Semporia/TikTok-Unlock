@@ -208,7 +208,9 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.lis
 ---
 
 ### <a id="Shadowrocket"> Shadowrocket </a>
+**特别说明**
 
+配置好规则后再打开TikTok，否则会因为第一次没有成功导致数据残留无法登录，需要重新卸载安装。
 
 **操作步骤**
 
