@@ -214,33 +214,32 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.lis
 
 1、打开`Shadowrocket`  
 
-2、点击`配置`进去添加想看国家的对应模块。
+2、依次点击`配置文件`>`编辑配置`>`HTTPS解密`>将`HTTPS解密`点绿开启>选择`安装证书`>跳出选项选择`允许`（完成
+描述文件的下载>前往手机的`设置`，不在Shadowrocket 里了--)看到`已下载描述文件`--)`安装`--)输入手机的解锁密码--)`安装`--)`安装`--)前往手机的`设置`--)`通用`--)`关于本机`--)`证书信任设置`--)找到`Shadowrocket`点绿它以信任该根证书--)`继续`
 
-**日本**
-```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-JP.conf
-```
+3、在`[rewrite_local]`中添加以下重写
 
-**台湾**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-TW.conf
-```
+(?<=_region=)CN(?=&) url 307 JP
+(?<=&mcc_mnc=)4 url 307 2
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) url 302  $1$3
+(?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) url 307 17
 
-**韩国**
-```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-KR.conf
 ```
 
-**美国**
-```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-US.conf
-```
+3.1、在`[mitm]`中添加
 
-3、添加以下`分流`
+```
+hostname = *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com 
+
+```
+3.2、添加以下`分流`
 
 ```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TikTok.list
+
 ```
+换区方法同Quantumult X相同
 
 ---
 
