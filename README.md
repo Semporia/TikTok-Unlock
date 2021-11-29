@@ -251,11 +251,14 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 * 搜索 APP，双击选择。  
 * 双击选择要下载的版本。  
 * 在 iTunes 中下载即可。  
+![Image text](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/iOS抓包/1.png)
+![Image text](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/iOS抓包/2.png)
 
 **二、复制 APP 链接方式**
 * 在 iTunes 下载按钮右侧下拉菜单中，选择【复制链接】。  
 * 双击选择要下载的版本。  
 * 在 iTunes 中下载即可。  
+![Image text](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/iOS抓包/3.png)
 
 **常见问题**
 
