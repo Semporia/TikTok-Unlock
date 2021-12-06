@@ -15,8 +15,8 @@
 
 ### <a id="TikTok"> TikTok </a>
 
-* iOS系统版本：15.1 （支持向下兼容）
-* TikTok版本：v21.1.0（支持向下兼容）
+* iOS系统版本：15.2 （支持向下兼容）
+* TikTok版本：v22.0.0（支持向下兼容）
 * TikTok TestFlight (支持)
 * 下载方式：在 美区/日区/台区 App Store搜索 TikTok 并下载 （港区已停止运营）
     * 支持功能：
