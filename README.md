@@ -16,7 +16,7 @@
 ### <a id="TikTok"> TikTok </a>
 
 * iOS系统版本：15.4 （支持向下兼容）
-* TikTok版本：v23.4.0（需要从抓包的21.1.0升级方可使用）
+* TikTok版本：v23.5.0（需要从抓包的21.1.0升级方可使用）
 * TikTok TestFlight (支持)
 * 下载方式：在 美区/日区/台区 App Store搜索 TikTok 并下载 （港区已停止运营）
     * 支持功能：
@@ -32,7 +32,7 @@
 ### <a id="准备工作"> 准备工作 </a>
 
 
-- 亚洲区 Appstore 下载 TikTok
+- Appstore 下载 TikTok
 
     * 美区/日区/台区/韩区等 Apple ID、密码 自备
 
@@ -60,8 +60,8 @@
 
 1、打开`Quantumult X`  
 
-2、开启**MitM**并**信任**Quantumult X证书，iOS 14、iOS 13和iOS 12操作略有不同：
-    * `设置`--)`MitM`--)开启`MitM`--)`生成密钥及证书`--)右上角点`保存`--)`允许`安装描述文件--)`关闭`--)前往手机的`设置`，不在Quantumult X了--)看到`已下载描述文件`--)`安装`--)输入手机的解锁密码--)`安装`--)`安装`--)前往手机的`设置`--)`通用`--)`关于本机`--)`证书信任设置`--)找到`Quantumult X Custom Root Certificate…`点绿它以信任该根证书--)`继续`  
+2、开启**MitM**并**信任**Quantumult X证书：
+    * `设置` → `MitM` → 开启`MitM` → `生成密钥及证书` → 右上角点`保存` → `允许`安装描述文件 → `关闭` → 前往手机的`设置`，不在Quantumult X了 → 看到`已下载描述文件` → `安装` → 输入手机的解锁密码 → `安装` → `安装` → 前往手机的`设置` → `通用` → `关于本机` → `证书信任设置` → 找到`Quantumult X Custom Root Certificate…`点绿它以信任该根证书 → `继续`  
 
 **方法一：**
 
@@ -119,7 +119,7 @@ https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/TikTok.lis
 (?<=_region=)CN(?=&) url 307 CN
 ```
 
-6、开启Quantumult X：前往Quantumult X的主页--）找到`TikTok`策略--）长按添加`节点`--)TikTok愉快
+6、开启Quantumult X：前往Quantumult X的主页 → 找到`TikTok`策略 → 长按添加`节点` → TikTok愉快
 
 **特别说明**
 
