@@ -295,15 +295,15 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 * 【开始拦截】，iTunes 中更新该软件，即可正常下载该版本。  
 
 **下载地址**  
-* [iOS任意版本号APP下载v5.1](https://drive.google.com/file/d/1gyTniD9-1gnIV-uuWbbOaO1t5gi8Pczi/view?usp=sharing)
+* [iOS任意版本号APP下载v5.1](https://drive.google.com/drive/folders/1yA5LZHBLdKVyM7D-sYSKgAZ_Pct3rnOA?usp=sharing)
 
 **下载地址**  
 解壓縮密碼：@Semporia
 
 **iTunes v12.6.5.3（最后一个带 AppStore 的版本）**
 * 官方直链：  
-* [64 位下载](https://secure-appldnld.apple.com/itunes12/091-87819-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A6/iTunes64Setup.exe)  
-* [32 位下载](https://secure-appldnld.apple.com/itunes12/091-87820-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A5/iTunesSetup.exe)
+* [64 位下载](https://drive.google.com/drive/folders/1yA5LZHBLdKVyM7D-sYSKgAZ_Pct3rnOA?usp=sharing)  
+* [32 位下载](https://drive.google.com/drive/folders/1yA5LZHBLdKVyM7D-sYSKgAZ_Pct3rnOA?usp=sharing)
 
 **[视频教程](https://www.bilibili.com/video/BV1VQ4y1M77t)**
 
