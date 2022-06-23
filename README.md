@@ -55,7 +55,7 @@
 
 ---
 
-### <a id="Quantumult X"> Quantumult X </a>
+### <a id="Quantumult-X"> Quantumult X </a>
 
 **关于换区**
 
