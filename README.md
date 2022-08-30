@@ -18,7 +18,7 @@
 
 * iOS系统版本：16.0 （支持向下兼容）
 * TikTok版本：V25.8.0（需要从抓包的21.1.0升级方可使用）
-* TikTok TestFlight V25.9.0（259010）
+* TikTok TestFlight V26.0.0（260002）
 * 下载方式：在 美区/日区/台区 App Store搜索 TikTok 并下载 （港区已停止运营）
     * 支持功能：
 
