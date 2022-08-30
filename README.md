@@ -10,6 +10,7 @@
 * [Shadowrocket](#Shadowrocket)
 * [抓包降级](#抓包降级)
 * [抖音無法觀看](#抖音)
+* [抖音IP代理](#抖音IP代理)
 
 ---
 
@@ -181,22 +182,22 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTok.list
 
 **日本**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-JP.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKTok-JP.sgmodule
 ```
 
 **台湾**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-TW.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKTok-TW.sgmodule
 ```
 
 **韩国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-KR.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKTok-KR.sgmodule
 ```
 
 **美国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKTok-US.sgmodule
 ```
 
 3、添加以下`分流`
@@ -221,22 +222,22 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.lis
 
 **日本**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-JP.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-JP.conf
 ```
 
 **台湾**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-TW.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-TW.conf
 ```
 
 **韩国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-KR.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-KR.conf
 ```
 
 **美国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-US.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-US.conf
 ```
 
 4、添加以下`分流`，点击`配置` → 你使用的配置后的`i` → `规则` → 右上角加号 → `类型` → 选择`RULE-SET` → 策略 → 选择`PROXY`或者其他你想使用的策略（一般是对应地区的代理服务器节点） → 规则集URL文本框内填写
@@ -249,6 +250,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 ### <a id="抓包降级"> 抓包降级 TikTok 21.1.0 </a>
 
 * [教程](https://docs.google.com/document/d/1gIQBeLppykOA73NalY-ZejsDqcsg7pVpwbBXQfrGbLk/edit?usp=sharing)
+* [备用地址](https://semporia.blogspot.com/2022/06/tiktok-2110.html)
 
 ---
 ### <a id="抖音"> 抖音無法觀看 </a>
@@ -256,4 +258,13 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/Tik
 在hostname中加上以下兩條
 ```
 -*snssdk.com, -*amemv.com
+```
+
+---
+### <a id="抖音IP代理"> 抖音IP代理 </a>
+
+订阅分流
+
+```
+https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/DouYin.list
 ```
