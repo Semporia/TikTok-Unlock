@@ -16,8 +16,8 @@
 ### <a id="TikTok"> TikTok </a>
 
 * iOS系统版本：16.0 （支持向下兼容）
-* TikTok版本：V25.7.1（需要从抓包的21.1.0升级方可使用）
-* TikTok TestFlight V25.8.0（258002）
+* TikTok版本：V25.8.0（需要从抓包的21.1.0升级方可使用）
+* TikTok TestFlight V25.9.0（259010）
 * 下载方式：在 美区/日区/台区 App Store搜索 TikTok 并下载 （港区已停止运营）
     * 支持功能：
 
@@ -221,22 +221,22 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.lis
 
 **日本**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-JP.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-JP.sgmodule
 ```
 
 **台湾**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-TW.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-TW.sgmodule
 ```
 
 **韩国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-KR.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-KR.sgmodule
 ```
 
 **美国**
 ```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TiKok-US.sgmodule
+https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKok-US.sgmodule
 ```
 
 4、添加以下`分流`，点击`配置` → 你使用的配置后的`i` → `规则` → 右上角加号 → `类型` → 选择`RULE-SET` → 策略 → 选择`PROXY`或者其他你想使用的策略（一般是对应地区的代理服务器节点） → 规则集URL文本框内填写
