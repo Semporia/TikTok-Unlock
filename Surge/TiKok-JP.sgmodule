@@ -1,3 +1,6 @@
+#!name=TikTok-JP
+#!desc=解锁 TikTok 日本
+
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) JP 307
