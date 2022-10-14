@@ -17,8 +17,8 @@
 ### <a id="TikTok"> TikTok </a>
 
 * iOS系统版本：16.1 （支持向下兼容）
-* TikTok版本：Version 26.2.0（需要从抓包的21.1.0升级方可使用）
-* TikTok TestFlight Version 26.3.0（263008）
+* TikTok版本：Version 26.4.1（需要从抓包的21.1.0升级方可使用）
+* TikTok TestFlight Version 26.5.0（265010）
 * 下载方式：在 美区/日区/台区 App Store搜索 TikTok 并下载 （港区已停止运营）
     * 支持功能：
 
