@@ -1,3 +1,10 @@
+#!name=TikTok KR
+#!desc=解锁 TikTok 日本 地区
+#!openUrl=https://github.com/SemporiaTikTok-Unlock
+#!author=Semporia
+#!homepage=https://github.com/Semporia/TikTok-Unlock
+#!icon= https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
+
 [Rule]
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,ibytedtos.com
