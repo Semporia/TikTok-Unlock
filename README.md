@@ -1,5 +1,6 @@
 # iPhone （免拔卡）解锁 TikTok + 换区 + 发布视频 + 直播 + 点赞评论
 
+[English Version](https://github.com/Semporia/TikTok-Unlock/blob/master/README_EN.md)
 > 目录
 
 * [TikTok](#TikTok)
