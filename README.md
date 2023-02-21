@@ -163,7 +163,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTok-KR.p
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTok-US.plugin
 ```
 
-3、弹出页面指定PROXY策略，一般是对应地区的代理服务器节点，其他也可
+3、如果无法播放，点击插件指定PROXY策略，一般是对应地区的代理服务器节点，其他策略也可
 
 ---
 
