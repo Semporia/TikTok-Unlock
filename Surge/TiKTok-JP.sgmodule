@@ -1,5 +1,10 @@
-#!name=TikTok-JP
-#!desc=解锁 TikTok 日本
+#!name=TikTok JP
+#!desc=解锁 TikTok 日本 地区
+#!openUrl=https://github.com/Semporia/TikTok-Unlock
+#!author=Semporia
+#!homepage=https://github.com/Semporia/TikTok-Unlock
+#!icon= https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
+
 
 [URL Rewrite]
 
