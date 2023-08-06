@@ -4,7 +4,7 @@ name: Sync Fork
 on:
   push: # push 时触发, 主要是为了测试配置有没有问题
   schedule:
-    - cron: '0 1 */7 * *' # 每7天9点触发
+    - cron: '0 0 */7 * *' # 每7天8点触发
 jobs:
   repo-sync:
     runs-on: ubuntu-latest
