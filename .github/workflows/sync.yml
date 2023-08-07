@@ -1,17 +1,20 @@
-# .github/workflows/sync.yml
-name: Sync Fork
-
 on:
-  push: # push 时触发, 主要是为了测试配置有没有问题
+  push:
+    branches:
+      -master
   schedule:
-    - cron: '0 0 */7 * *' # 每7天8点触发
+    - cron: 0 0 */7 * *
+    # 每隔12小时
 jobs:
-  repo-sync:
+  update_external_airflow_fork:
     runs-on: ubuntu-latest
     steps:
-      - uses: TG908/fork-sync@v1.6.3
+      - uses: TobKed/github-forks-sync-action@master
         with:
-          #github_token: ${{ secrets.GITHUB_TOKEN }}
-          owner: Semporia # fork 的上游仓库 user
-          head: master # fork 的上游仓库 branch
-          base: master # 本地仓库 branch
+          #github_token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }} # 令牌
+          upstream_repository: Semporia/TikTok-Unlock  # 上游仓库
+          target_repository: General74110/TikTok-Unlock  # 你要推送的仓库
+          upstream_branch: master  # 默认是拉取上游仓库的master分支
+          target_branch: master  # 默认推送到你的仓库master分支
+          force: true  # 是否强制推送
+          tags: true  # 确定是否使用-tags
