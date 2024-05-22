@@ -1,0 +1,11 @@
+#!name=TikTok-TW
+#!desc=TikTok-中国台湾省解锁
+
+[URL Rewrite]
+(?<=_region=)CN(?=&) TW 307
+(?<=&mcc_mnc=)4 2 307
+^(https?:\/\/(tnc|dm)[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
+(?<=\d\/\?\w{7}_\w{4}=)1[6-9]..(?=.?.?&) 17 307
+
+[MITM]
+hostname = %APPEND% *.tiktokv.com, *.byteoversea.com, *.tik-tokapi.com
