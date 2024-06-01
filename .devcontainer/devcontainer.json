@@ -4,7 +4,8 @@
 		"vscode": {
 			"extensions": [
 				"github.vscode-github-actions",
-				"MS-CEINTL.vscode-language-pack-cs"
+				"MS-CEINTL.vscode-language-pack-cs",
+				"ms-python.vscode-pylance"
 			]
 		}
 	}
