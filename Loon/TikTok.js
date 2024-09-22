@@ -1,5 +1,6 @@
-let keyus={日本: "JP", 韓國: "KR", 英國:"UK", 美國:"US", 台灣:"TW", 香港:"HK", 新加坡:"SG", 法國:"FR", 馬來西亞:"MY", 菲律賓:"PH", 泰國:"TH", 自行錄入:"inkey"},url = $request.url,lk = "",loc = "";
-if (typeof $argument !== 'undefined' && $argument !== "") {loc = this.$argument ?? "KR";} else {lk = $persistentStore.read("TikTok 解鎖區域");loc = keyus[lk] || "KR";if(loc == "inkey"){inkeys = $persistentStore.read("自行錄入區域代碼[可選]");loc = inkeys;}};
+
+let keyus={台灣: "TW", 日本: "JP", 韓國: "KR", 泰國: "TH", 越南: "VN", 英國: "UK", 法國: "FR", 德國: "DE", 美國: "US", 巴西: "BR", 俄羅斯: "RU", 墨西哥: "MX", 土耳其: "TR", 西班牙: "ES", 阿根廷: "AR", 新加坡: "SG", 菲律賓: "PH", 馬來西亞: "MY"},
+lk = $persistentStore.read("解鎖區域"),loc = keyus[lk] || "KR",url = $request.url;
 if (/(tnc|dm).+\.[^\/]+\.com\/\w+\/v\d\/\?/.test(url)) {
   url = url.replace(/\/\?/g,'');
   const response = {
@@ -14,4 +15,6 @@ if (/(tnc|dm).+\.[^\/]+\.com\/\w+\/v\d\/\?/.test(url)) {
     headers: {Location: url},
   };
   $done({response});
-} else {$done({})};
+} else {
+  $done({})
+}
