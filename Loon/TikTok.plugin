@@ -1,0 +1,27 @@
+#!name = TikTok 解鎖
+#!desc = [必選: 可選擇插件內區域] [可選: 手動錄入國家 ISO 代碼，請在選擇項 "自行錄入"區域代碼的 ISO 方可生效]
+#!openUrl = https://github.com/Semporia/TikTok-Unlock
+#!author = Semporia
+#!homepage = https://github.com/Semporia/TikTok-Unlock
+#!icon = https://raw.githubusercontent.com/Semporia/Hand-Painted-icon/master/Social_Media/TikTok.png
+#!select = TikTok 解鎖區域:日本、韓國、英國、美國、台灣、香港、新加坡、法國、馬來西亞、菲律賓、泰國等。
+#!input = 自行錄入區域代碼[可選]
+
+
+[Rule]
+DOMAIN-KEYWORD,tiktokcdn
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+USER-AGENT,TikTok*
+
+[MITM]
+hostname = *.byteoversea.com, *.tik-tokapi.com, *.tiktokv.com
+
+[Script]
+http-request ^https?:\/\/((tnc|dm).+\.[^\/]+\.com\/\w+\/v\d\/\?|.+\.(byteoversea|tiktokv).com\/.+(_region=CN&|&mcc_mnc=4)) script-path=https://raw.githubusercontent.com/Semporia/TikTok-Unlock/refs/heads/master/Loon/TikTok.js, timeout=20, tag=TikTok
