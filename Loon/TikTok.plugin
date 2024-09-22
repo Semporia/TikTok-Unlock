@@ -24,4 +24,5 @@ USER-AGENT,TikTok*,TikTok
 hostname = *.byteoversea.com, *.tik-tokapi.com, *.tiktokv.com
 
 [Script]
-http-request ^https?:\/\/((tnc|dm).+\.[^\/]+\.com\/\w+\/v\d\/\?|.+\.(byteoversea|tiktokv).com\/.+(_region=CN&|&mcc_mnc=4)) script-path=https://raw.githubusercontent.com/Semporia/TikTok-Unlock/refs/heads/master/Loon/TikTok.js, timeout=20, tag=TikTok
+http-request https?:\/\/.+.(tiktokv|tiktokcdn).com\/.+(region\d?=CN|&mcc_mnc=\d+) script-path = https://raw.githubusercontent.com/Semporia/TikTok-Unlock/refs/heads/master/Loon/TikTok.js, tag = TikTok 解鎖
+
