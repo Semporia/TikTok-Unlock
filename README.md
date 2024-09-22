@@ -133,7 +133,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/Tik
 
 **操作步骤**
 
-[一鍵安裝](https://raw.githubusercontent.com/Semporia/TikTok-Unlock/refs/heads/master/Loon/TikTok.plugin)
+[一鍵安裝](https://www.nsloon.com/openloon/import?plugin=https://raw.githubusercontent.com/Semporia/TikTok-Unlock/refs/heads/master/Loon/TikTok.plugin)
 
 1、打开`Loon`
 
