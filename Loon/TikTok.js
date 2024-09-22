@@ -1,6 +1,6 @@
 
 let keyus={台灣: "TW", 日本: "JP", 韓國: "KR", 泰國: "TH", 越南: "VN", 英國: "UK", 法國: "FR", 德國: "DE", 美國: "US", 巴西: "BR", 俄羅斯: "RU", 墨西哥: "MX", 土耳其: "TR", 西班牙: "ES", 阿根廷: "AR", 新加坡: "SG", 菲律賓: "PH", 馬來西亞: "MY"},
-lk = $persistentStore.read("解锁地区"),loc = keyus[lk] || "KR",url = $request.url;
+lk = $persistentStore.read("解鎖區域"),loc = keyus[lk] || "KR",url = $request.url;
 // if(loc == "inkey"){
 //   inkeys = $persistentStore.read("手動錄入[可選]");
 //   loc = inkeys
