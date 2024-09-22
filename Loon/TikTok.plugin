@@ -1,5 +1,5 @@
 #!name = TikTok 解鎖
-#!desc = [必選: 可選擇插件內區域] [可選: 手動錄入國家 ISO 代碼，請在選擇項 "自行錄入"區域代碼的 ISO 方可生效]
+#!desc = 移除 TikTok 視頻水印並自定義區域解鎖，需要設定此插件對應區域的節點。
 #!openUrl = https://github.com/Semporia/TikTok-Unlock
 #!author = Semporia
 #!system = 
