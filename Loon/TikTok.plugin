@@ -9,16 +9,16 @@
 
 
 [Rule]
-DOMAIN-KEYWORD,tiktokcdn
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,muscdn.com
+DOMAIN-KEYWORD,tiktokcdn,TikTok
+DOMAIN-SUFFIX,byteoversea.com,TikTok
+DOMAIN-SUFFIX,ibytedtos.com,TikTok
+DOMAIN-SUFFIX,ipstatp.com,TikTok
+DOMAIN-SUFFIX,muscdn.com,TikTok
 DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokcdn.com
-USER-AGENT,TikTok*
+DOMAIN-SUFFIX,tik-tokapi.com,TikTok
+DOMAIN-SUFFIX,tiktok.com,TikTok
+DOMAIN-SUFFIX,tiktokcdn.com,TikTok
+USER-AGENT,TikTok*,TikTok
 
 [MITM]
 hostname = *.byteoversea.com, *.tik-tokapi.com, *.tiktokv.com
