@@ -51,7 +51,7 @@
 4. 或者是 Https 解密（MiMt）与重写（Rewrite）有没有开启。
 5. 或者是软件是不是盗版，比如用共享 ID 下载的，有设备限制，是无法使用重写脚本功能的。
 
-<span style="color:red">**如直接接安装新版本，则直接使用规则分流即可访使用ikTok。**</span>
+<span style="color:red">**如安装商店最新版本，则直接使用规则分流即可访使用TikTok。**</span>
 
 ---
 
