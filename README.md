@@ -140,7 +140,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Quantumult-X/Tik
 
 1、打开`Loon`
 
-2、点击`插件`在右上角找到`➕`进去在URL添加想看的对应国家链接,tag处自定义；PROXY 选择TikTok分流策略即可。
+2、点击`插件`在右上角找到`➕`进去在URL添加想看的对应国家链接,别名处可不填。
 
 **日本**
 
@@ -166,11 +166,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTok-KR.p
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTok-US.plugin
 ```
 
-3、在`[Remote Rule]`下面添加TikTok分流规则，示例如下：
-
-```
-https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Loon/TikTok.list, tag=TikTok, policy=TikTok, update-interval=86400, enabled=true
-```
+3、如果无法播放，点击插件指定PROXY策略，一般是对应地区的代理服务器节点，其他策略也可
 
 ---
 
