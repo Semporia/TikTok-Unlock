@@ -16,8 +16,8 @@
 
 ### <a id="TikTok"> TikTok </a>
 
-* iOS系统版本：18.4 Beta （支持向下兼容）
-* TikTok Version : 38.7.0（前置操作：从 [iTunes for Windows V 12.6.5.3](https://secure-appldnld.apple.com/itunes12/091-87820-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A5/iTunesSetup.exe) 抓包 TikTok Version 21.1.0 安装，登陆后观看视频、直播、评论、点赞、发布视频等模块都正常使用后，再从 App Store 升级至最新版方可使用！）
+* iOS系统版本：18.5 Beta （支持向下兼容）
+* TikTok Version : 39.7.0（前置操作：从 [iTunes for Windows V 12.6.5.3](https://secure-appldnld.apple.com/itunes12/091-87820-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A5/iTunesSetup.exe) 抓包 TikTok Version 21.1.0 安装，登陆后观看视频、直播、评论、点赞、发布视频等模块都正常使用后，再从 App Store 升级至最新版方可使用！）
 * iTunes 歷史版本: [下載鏈接直達蘋果官網](https://www.theiphonewiki.com/wiki/ITunes)
 * TikTok TestFlight
 * 下载方式：在 美区/日区/台区 App Store 搜索 TikTok 并下载 （港区已停止运营）
@@ -45,11 +45,13 @@
 
 **特别说明**
 
-1、为什么要先卸载 TikTok，TikTok 会在第一次使用时触发限制，并导致之后无法通过 MiMt 解密。
-2、所以先配置好规则之后，然后在下载 TikTok，减少重定向的请求次数，降低风险，延长规则的寿命。
-3、为什么配置好之后还是无法使用，请检查软件的证书有没有安装，信任。
-4、或者是 Https 解密（MiMt）与重写（Rewrite）有没有开启。
-5、或者是软件是不是盗版，比如用共享 ID 下载的，有设备限制，是无法使用重写脚本功能的。
+1. 为什么要先卸载 TikTok，TikTok 会在第一次使用时触发限制，并导致之后无法通过 MiMt 解密。
+2. 所以先配置好规则之后，然后在下载 TikTok，减少重定向的请求次数，降低风险，延长规则的寿命。
+3. 为什么配置好之后还是无法使用，请检查软件的证书有没有安装，信任。
+4. 或者是 Https 解密（MiMt）与重写（Rewrite）有没有开启。
+5. 或者是软件是不是盗版，比如用共享 ID 下载的，有设备限制，是无法使用重写脚本功能的。
+
+<span style="color:red">**如安装商店最新版本，则直接使用规则分流即可访使用TikTok。**</span>
 
 ---
 
@@ -66,6 +68,7 @@
 1、打开`Quantumult X`
 
 2、开启**MitM**并**信任**Quantumult X证书：
+
 * `设置` → `MitM` → 开启`MitM` → `生成密钥及证书` → 右上角点`保存` → `允许`安装描述文件 → `关闭` → 前往手机的`设置`，不在Quantumult X了 → 看到`已下载描述文件` → `安装` → 输入手机的解锁密码 → `安装` → `安装` → 前往手机的`设置` → `通用` → `关于本机` → `证书信任设置` → 找到`Quantumult X Custom Root Certificate…`点绿它以信任该根证书 → `继续`
 
 **方法一：**
@@ -218,6 +221,7 @@ https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.lis
 1、打开`Shadowrocket`
 
 2、开启**HTTPS解密**并**安装、信任**Shadowrocket证书：
+
 * `配置` → 你使用的配置文件后的`i` → `HTTPS解密` → 开启`HTTPS解密` → `生成新的CA证书` → 允许 → 返回点击`安装证书`，并点击`允许` → 前往手机的`设置`，不是Shadowrocket的 → 看到`已下载描述文件` → `安装` → 输入手机的解锁密码 → `安装` → `安装` → 前往手机的`设置` → `通用` → `关于本机` → `证书信任设置` → 找到`Shadowrocket…`点绿它以信任该根证书 → `继续`
 
 3、点击`配置` → `模块` → 右上角加号，添加想看国家的对应模块。
