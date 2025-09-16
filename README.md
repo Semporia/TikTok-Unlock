@@ -16,8 +16,8 @@
 
 ### <a id="TikTok"> TikTok </a>
 
-* iOS系统版本：18.5 Beta （支持向下兼容）
-* TikTok Version : 39.7.0（前置操作：从 [iTunes for Windows V 12.6.5.3](https://secure-appldnld.apple.com/itunes12/091-87820-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A5/iTunesSetup.exe) 抓包 TikTok Version 21.1.0 安装，登陆后观看视频、直播、评论、点赞、发布视频等模块都正常使用后，再从 App Store 升级至最新版方可使用！）
+* iOS系统版本：26.0  （支持向下兼容）
+* TikTok Version : 41.6.0（前置操作：从 [iTunes for Windows V 12.6.5.3](https://secure-appldnld.apple.com/itunes12/091-87820-20180912-69177170-B085-11E8-B6AB-C1D03409AD2A5/iTunesSetup.exe) 抓包 TikTok Version 21.1.0 安装，登陆后观看视频、直播、评论、点赞、发布视频等模块都正常使用后，再从 App Store 升级至最新版方可使用！）
 * iTunes 歷史版本: [下載鏈接直達蘋果官網](https://www.theiphonewiki.com/wiki/ITunes)
 * TikTok TestFlight
 * 下载方式：在 美区/日区/台区 App Store 搜索 TikTok 并下载 （港区已停止运营）
